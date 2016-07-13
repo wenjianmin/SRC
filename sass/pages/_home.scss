@@ -1,0 +1,32 @@
+//  = 指标总览部分 =
+/*磁贴样式 */
+.tile{
+    width:100%;
+    height:auto;
+    color:#fff;
+    text-align: center;
+    padding:10px 0px 5px;
+    font-weight: bold;
+    margin:10px 0;
+    cursor:pointer;
+
+    & .parameterValue{
+        font-size: 30px;
+    }
+    & .parameter{
+        font-size:15px;
+    }
+    &-pink{
+        background-color: #F74D4D;
+    }
+    &-blue{
+        background-color: #2255A4;
+    }
+    &-paleBlue{
+        background-color: #27A9E3;
+    }
+    &-purple{
+        background-color: #A080DE;
+    }
+}
+//  ========== 
